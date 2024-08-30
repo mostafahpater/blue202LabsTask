@@ -19,7 +19,7 @@ function App(): React.JSX.Element {
   const Stack = createNativeStackNavigator();
   return (
     <View style={{flex:1}}>
-      <StatusBar barStyle='light-content'/>
+      <StatusBar />
       <NavigationContainer>
       <Stack.Navigator initialRouteName="Splash">
         <Stack.Screen name="Splash" component={SplashScreen}   options={{ headerShown: false }}/>
